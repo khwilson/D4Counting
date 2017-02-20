@@ -1,3 +1,3 @@
 # D4 Counting
 
-Link to paper
+These scripts are currently quite incomplete. Just storing them here for now.
