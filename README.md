@@ -6,10 +6,15 @@ This repository represents the code that was used to compute Tables 1 and 2 of [
 
 We mainly use Python 3.7 and sympy. We do use [Poetry](https://python-poetry.org/) as our dependency management system, so you'll first need to install that to package everything correctly. After that, though, you should be able to run:
 
+```bash
+poetry install
+```
+
+If you don't want to install `poetry`, then running `pip install sympy click && pip install -e .` will do the job.
+
 ## Usage
 
 ```bash
-poetry install
 poetry run d4counting splitting    # Computes Table 1
 poetry run d4counting expectation  # Computes Table 2
 ```
