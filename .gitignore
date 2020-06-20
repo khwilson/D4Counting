@@ -1,0 +1,8 @@
+# Python cruft
+.venv
+*.egg-info
+__pycache__
+*.pyc
+
+# Editor cruft
+.vscode
